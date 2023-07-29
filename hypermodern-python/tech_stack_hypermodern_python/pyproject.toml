@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "tech-stack-hypermodern-python"
+version = "0.1.0"
+description = "The tech stack for the Hypermodern Python tutorial"
+authors = ["Abderrahim Guennoune <aguennoune@outlook.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/aguennoune/tech-stack-hypermodern-python"
+repository = "https://github.com/aguennoune/tech-stack-hypermodern-python"
+keywords = ["hypermodern", "python"]
+packages = [{include = "tech_stack_hypermodern_python", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
