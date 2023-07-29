@@ -1,1 +1,1 @@
-# tech-stack-hypermodern-python
+# tech-stack-hypermodern-python CLI

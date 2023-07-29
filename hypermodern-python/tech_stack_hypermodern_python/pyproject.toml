@@ -13,7 +13,10 @@ packages = [{include = "tech_stack_hypermodern_python", from = "src"}]
 [tool.poetry.dependencies]
 python = "^3.7"
 click = "^8.1.6"
+requests = "^2.31.0"
 
+[tool.poetry.scripts]
+tech-stack-hypermodern-python = "tech_stack_hypermodern_python.console:main"
 
 [build-system]
 requires = ["poetry-core"]
