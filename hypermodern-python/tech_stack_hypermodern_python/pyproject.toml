@@ -12,6 +12,7 @@ packages = [{include = "tech_stack_hypermodern_python", from = "src"}]
 
 [tool.poetry.dependencies]
 python = "^3.7"
+click = "^8.1.6"
 
 
 [build-system]
